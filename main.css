@@ -1,0 +1,25 @@
+h1 {
+    text-align: center;
+  }
+  #description {
+    text-align: center;
+    font-style: italic;
+  }
+  form {
+    margin: auto;
+    width: 75%;
+    max-width: 450px;
+    padding: 50px;
+    background: yellow;
+    font-size: 25px;
+  }
+  input, select, textarea {
+    font-size: 20px;
+    width: 100%;
+  }
+  div {
+    margin-bottom: 25px;
+  }
+  .radio, .checkbox {
+    width: auto;
+  }
