@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>fcc-survey-form</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+    <body>
+        <main>
+            <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<h1 id="title">freeCodeCamp Survey Form</h1>
+<p id="description">Thank you for completing this survey to help us improve</p>
+
+<form id="survey-form">
+  <div>
+    <label for="name" id="name-label">Name:</label>
+    <br>
+    <input id="name" type="text" name="name" placeholder="Your full name" required>
+  </div>
+  <div>
+    <label for="email" id="email-label">Email:</label>
+    <br>
+    <input id="email" type="email" name="email" placeholder="Your email address" required>
+  </div>
+  <div>
+    <label for="number" id="number-label">Age:</label>
+    <br>
+    <input id="number" type="number" name="number" min="13" max="120" placeholder="Age">
+  </div>
+  <div>
+    <label for="dropdown" id="dropdown-label">Favorite language:</label>
+    <br>
+    <select id="dropdown" name="dropdown" required>
+      <option value="html">HTML</option>
+      <option value="css">CSS</option>
+      <option value="python">Python</option>
+      <option value="javascript">JavaScript</option>
+      <option value="ruby">Ruby</option>
+    </select>
+  </div>
+  <div>
+   <p>Would you recomend freeCodeCamp?</p>
+    <input type="radio" id="absolutely" name="recommendation" value="absolutely" class="radio">
+    <label for="absolutely">Absolutely</label>
+    <br>
+    <input type="radio" id="maybe" name="recommendation" value="maybe" class="radio">
+    <label for="maybe">Maybe</label>
+    <br>
+    <input type="radio" id="probably-not" name="recommendation" value="probably-not" class="radio">
+    <label for="probably-not">Probably not</label>
+  </div>
+  <div>
+    <p>Where could we improve?</p>
+    <input type="checkbox" id="lessons" name="improve" value="lessons" class="checkbox">
+    <label for="lessons">Lessons</label>
+    <br>
+    <input type="checkbox" id="projects" name="improve" value="projects" class="checkbox">
+    <label for="projects">Projects</label>
+    <br>
+    <input type="checkbox" id="support" name="improve" value="support" class="checkbox">
+    <label for="support">Support</label>
+    <br>
+  </div>
+  <div>
+    <p>Any additional comments or suggestions?</p>
+    <textarea id="comments" placeholder="Enter comments here"></textarea>
+  </div>
+  <div>
+  <input type="submit" id="submit" value="Submit">
+  </div>
+</form>
+        </main>
+    </body>
+</html>
